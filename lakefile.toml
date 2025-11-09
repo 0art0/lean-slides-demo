@@ -1,0 +1,14 @@
+name = "lean-slides-demo"
+version = "0.1.0"
+defaultTargets = ["lean-slides-demo"]
+
+[[lean_lib]]
+name = "LeanSlidesDemo"
+
+[[lean_exe]]
+name = "lean-slides-demo"
+root = "Main"
+
+[[require]]
+name = "lean-slides"
+git = "https://github.com/0art0/lean-slides.git"
